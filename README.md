@@ -5,7 +5,7 @@ Created a Power BI Dashboard which helps to review and compare performances of a
 app link: https://shivanshka.github.io/Cricket_Analytics
 
 ## Video Demo
-![demo](https://github.com/shivanshka/Cricket_Analytics/raw/master/Criket%20Analytics%20Demo.mp4)
+[<img src="https://github.com/shivanshka/Cricket_Analytics/blob/master/thumb.png?raw=true" width="50%">](https://youtu.be/3SQ_CHckdA8)
 
 ## Steps:
 - ### Data Collection:
