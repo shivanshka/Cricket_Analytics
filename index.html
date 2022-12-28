@@ -1,2 +1,56 @@
-<title>T20 WorldCup Analysis</title>
-<iframe title="T20_WorldCup_Analysis - Home" width="1024" height="768" src="https://app.powerbi.com/view?r=eyJrIjoiOTc3N2ZiYzItYjAyNS00MjNlLWJkNmItMmM1ODc2OTVmZDBkIiwidCI6IjQzMmNjNWJlLTMxMTEtNGNjYy1iNzk2LTUxYzhjMGQ4YjViYSJ9" frameborder="0" allowFullScreen="true"></iframe>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T20 WorldCup Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        .title {
+            text-align: center;
+            font-weight: bold;
+
+            font-size: 45px;
+            /*background-color: #f5ed85;*/
+            background-image: linear-gradient(to right, rgb(180, 126, 9) , rgb(212, 243, 36));
+            padding-top: 1px;
+            font-weight: bolder;
+            padding-bottom: 1px;
+            color: #b3119d;
+            -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px #000000;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .footer{
+            position: relative;
+            bottom:0px;
+            width:100%;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #3a3939;
+            color: #d1d1d4;
+        }
+        .dashboard{
+            align-content: center;
+            padding-left: 17%;
+        }
+    </style>
+<body>
+    <div class="title">T20 WorldCup 2022 Analysis</div>
+    <div class="dashboard">
+        <iframe title="T20_WorldCup_Analysis" width="900" height="562.5" src="https://app.powerbi.com/view?r=eyJrIjoiOTc3N2ZiYzItYjAyNS00MjNlLWJkNmItMmM1ODc2OTVmZDBkIiwidCI6IjQzMmNjNWJlLTMxMTEtNGNjYy1iNzk2LTUxYzhjMGQ4YjViYSJ9&pageName=ReportSection6b44667583e1e86c2b08" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 footer" id="sec-a78b"><div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <a href="https://github.com/shivanshka/Cricket_Analytics.git" class="github" data-image-width="100" data-image-height="100" title="Source code" target="_blank">
+          <img src="{{ url_for('static', filename='img/git.png') }}" class="github_image">
+        </a>
+        <a href="https://www.linkedin.com/in/shivansh-ka" class="linkedin" data-image-width="100" data-image-height="100" title="Developen Linkedin Id" target="_blank">
+            <img src="{{ url_for('static', filename='img/linkied.png') }}" class="linkedin_image">
+          </a>
+        <p class="footer-text">Created by Shivansh Kaushal</p>
+      </div></footer>
+</body>
+</html>
